@@ -16,6 +16,7 @@ class String
 
   def count_sentences
      counter = 0 
-     self.end_with?(".") ? true : false
+     array = []
+     array = self.split(".", "?", "!")
   end
 end
