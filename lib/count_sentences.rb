@@ -18,6 +18,6 @@ class String
      counter = 0 
      array = []
      array = self.split
-     array.
+     counter = array.count 
   end
 end
